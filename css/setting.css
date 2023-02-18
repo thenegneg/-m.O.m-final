@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-image: url(../img/8d9adb91-a46f-4480-b559-94f3a406a202.png);
+}
+
+@font-face {
+    font-family: f01;
+    src: url(../font/01.woff2);
+}
+@font-face {
+    font-family: f02;
+    src: url(../font/02.woff2);
+}
+@font-face {
+    font-family: f03;
+    src: url(../font/03.woff2);
+}
+@font-face {
+    font-family: f04;
+    src: url(../font/04.woff2);
+}
+@font-face {
+    font-family: f05;
+    src: url(../font/05.woff2);
+}
+@font-face {
+    font-family: f06;
+    src: url(../font/06.woff2);
+}
+@font-face {
+    font-family: f07;
+    src: url(../font/07.woff2);
+}
+@font-face {
+    font-family: f08;
+    src: url(../font/08.woff2);
+}
+@font-face {
+    font-family: f09;
+    src: url(../font/09.woff2);
+}
+@font-face {
+    font-family: f10;
+    src: url(../font/10.woff2);
+}
+@font-face {
+    font-family: f11;
+    src: url(../font/11.woff2);
+}
+@font-face {
+    font-family: f12;
+    src: url(../font/12.woff2);
+}
+@font-face {
+    font-family: f13;
+    src: url(../font/13.woff2);
+}
+@font-face {
+    font-family: f14;
+    src: url(../font/14.woff2);
+}
+@font-face {
+    font-family: f15;
+    src: url(../font/15.woff2);
+}
+@font-face {
+    font-family: f16;
+    src: url(../font/16.woff2);
+}
+@font-face {
+    font-family: f17;
+    src: url(../font/17.woff2);
+}
+@font-face {
+    font-family: f18;
+    src: url(../font/18.woff2);
+}
+@font-face {
+    font-family: f19;
+    src: url(../font/19.woff2);
+}
+@font-face {
+    font-family: f20;
+    src: url(../font/20.woff2);
+}
+@font-face {
+    font-family: f21;
+    src: url(../font/21.woff2);
+}
+@font-face {
+    font-family: f22;
+    src: url(../font/22.woff2);
+}
+@font-face {
+    font-family: f23;
+    src: url(../font/23.woff2);
+}
+@font-face {
+    font-family: f24;
+    src: url(../font/24.woff2);
+}
+@font-face {
+    font-family: f25;
+    src: url(../font/25.woff2);
+}
+@font-face {
+    font-family: f26;
+    src: url(../font/26.woff2);
+}
+@font-face {
+    font-family: f27;
+    src: url(../font/27.woff2);
+}
+@font-face {
+    font-family: f28;
+    src: url(../font/28.woff2);
+}
+@font-face {
+    font-family: f29;
+    src: url(../font/29.woff2);
+}
+@font-face {
+    font-family: f30;
+    src: url(../font/30.woff2);
+}
+@font-face {
+    font-family: f31;
+    src: url(../font/31.woff2);
+}
+@font-face {
+    font-family: f32;
+    src: url(../font/32.woff2);
+}
+@font-face {
+    font-family: f33;
+    src: url(../font/33.woff2);
+}
+@font-face {
+    font-family: f34;
+    src: url(../font/34.woff2);
+}
+@font-face {
+    font-family: f35;
+    src: url(../font/35.woff2);
+}
+@font-face {
+    font-family: f36;
+    src: url(../font/36.woff2);
+}
+@font-face {
+    font-family: f37;
+    src: url(../font/37.woff2);
+}
+@font-face {
+    font-family: f38;
+    src: url(../font/38.woff2);
+}
+@font-face {
+    font-family: f39;
+    src: url(../font/39.woff2);
+}
+@font-face {
+    font-family: f40;
+    src: url(../font/40.woff2);
+}
+@font-face {
+    font-family: f41;
+    src: url(../font/41.woff2);
+}
+@font-face {
+    font-family: f42;
+    src: url(../font/42.woff2);
+}
+@font-face {
+    font-family: f43;
+    src: url(../font/43.woff2);
+}
+@font-face {
+    font-family: f44;
+    src: url(../font/44.woff2);
+}
+@font-face {
+    font-family: f45;
+    src: url(../font/45.woff2);
+}
+@font-face {
+    font-family: f46;
+    src: url(../font/46.woff2);
+}
+@font-face {
+    font-family: f47;
+    src: url(../font/47.woff2);
+}
+@font-face {
+    font-family: f48;
+    src: url(../font/48.woff2);
+}
+@font-face {
+    font-family: f49;
+    src: url(../font/49.woff2);
+}
+@font-face {
+    font-family: f50;
+    src: url(../font/50.woff2);
+}
+@font-face {
+    font-family: f51;
+    src: url(../font/51.woff2);
+}
+@font-face {
+    font-family: f52;
+    src: url(../font/52.woff2);
+}
+@font-face {
+    font-family: f53;
+    src: url(../font/53.woff2);
+}
+@font-face {
+    font-family: f54;
+    src: url(../font/54.woff2);
+}
+@font-face {
+    font-family: f55;
+    src: url(../font/55.woff2);
+}
+@font-face {
+    font-family: f56;
+    src: url(../font/56.woff2);
+}
+@font-face {
+    font-family: f57;
+    src: url(../font/57.woff2);
+}
+@font-face {
+    font-family: f58;
+    src: url(../font/58.woff2);
+}
+@font-face {
+    font-family: f59;
+    src: url(../font/59.woff2);
+}
+@font-face {
+    font-family: f60;
+    src: url(../font/60.woff2);
+}
+@font-face {
+    font-family: f61;
+    src: url(../font/61.woff2);
+}
+@font-face {
+    font-family: f62;
+    src: url(../font/62.woff2);
+}
+@font-face {
+    font-family: f63;
+    src: url(../font/63.woff2);
+}
+
+div.wrapper>div.ml-head>div.right>div.menu>div.sub-sm>div.head>div.right>div.part>div.img>div.text{
+    background-color: white;
+    box-shadow: 5px 5px 15px gray;
+    border: 1px solid gray;
+}
+
+@keyframes rotate{
+    0% { transform: rotate(0deg); } /* حالت اولیه ی المنت */
+
+    100% { transform: rotate(360deg); } /* حالت ثانویه ی المنت */
+}
+
+div.wrapper>div.ml-head>div.right>div.menu>div.sub-sm>div.ul>ul>li{
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+div.wrapper>div.ml-head>div.right>div.menu>div.sub-sm>div.ul>ul>li.i01>div.part:hover>div.img>img{
+    animation: 1.5s linear 0s infinite rotate;
+    -webkit-animation: 1.5s linear 0s infinite rotate;
+}
+
+
+div.wrapper>div.ml-head>div.right>div.menu>div.sub-sm>div.ul>ul li>div.part:hover>p{
+    border-bottom: 3px solid #592411;
+}
+
+
+div.wrapper>div.menu>div.main-menu>ul>li.i01:hover>div.img{
+    animation: 1.5s linear 0s infinite rotate;
+    -webkit-animation: 1.5s linear 0s infinite rotate;
+}
+
+div.wrapper>div.menu>div.main-menu>ul li:hover>p{
+    border-bottom: 3px solid #592411;
+}
+
+div.container02>div.btn>div.btn>button{
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    border: 2px solid rgba(245, 245, 220, 0);
+}
+div.container02>div.btn>div.btn>button:hover{
+    border: 2px solid #592411;
+    color: #592411;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    background-color: inherit;
+}
+
+div.container03>div.btn>button{
+    border: 2px solid #592411;
+}
+div.container03>div.btn>button:hover>img{
+    animation: 1.5s linear 0s infinite rotate;
+    -webkit-animation: 1.5s linear 0s infinite rotate;
+}
+
+
+.animation:hover img{
+    animation: 1.5s linear 0s infinite rotate;
+    -webkit-animation: 1.5s linear 0s infinite rotate;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+div.container04>div.slider>div.swiper>div.swiper-wrapper>div.swiper-slide>div.img>img:hover{
+    filter: hue-rotate(300deg);
+    -webkit-filter: hue-rotate(300deg);
+}
+
+
+div.container04>div.btn>button{
+    border: 2px solid #592411;
+}
+
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+.border01{
+    border: 2px solid #59241100;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+.border01:hover{
+    background-color: inherit;
+    border: 2px solid #592411;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+div.container06>div.box>div.form>input{
+    border: 1.8px solid #592411;
+}
+
+.border02{
+    border: 1.8px solid #68B631;
+}
+
+
+div.footer>div.link-xs>div.part>div.ul>ul>li{
+    border-top:  1.5px solid #716d6d;
+}
+div.footer>div.link-xs>div.part>div.ul>ul>li.li01{
+    border-bottom:  1.5px solid #716d6d;
+}
+
+div.country>div.ul>ul>li{
+    border-bottom:  1.5px solid #716d6d;
+}
+
+div.footer>div.link>div.foot{
+    border-top:  4px double #c4a60d;
+}
+
+
+DIV.container01{
+    background-image: url(../img/container01/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.container06>div.box>div.img{
+    background-image: url(../img/container08/719fa4da-38c9-4f3e-aab5-0f0e4cd6b46e.png);
+}
+
+
+
+
+
+
+
+
